@@ -120,16 +120,6 @@ a{
 	font-size: 1.2rem;
 }
 
-.highlight button{
-	font-size: 1.5rem;
-	padding: 0 1.5rem;
-	background-color: orange;
-	outline: none;
-	border: none;
-	cursor: pointer;
-	margin: 10px 0;
-}
-
 /*BANNER*/
 
 .banner{
@@ -147,6 +137,7 @@ a{
 
 .container{
 	padding: 3%;
+	display: flex;
 }
 
 .title{
@@ -162,11 +153,28 @@ a{
 
 .title-section{
 	border-bottom: 4px solid #00008b;
-	margin: 0 28% 0 4%;
+	margin: 0 4% 0 4%;
 }
 
 .news img{
 	width: 200px;
+	cursor: pointer;
+}
+
+.news h2{
+	font-size: 1.2rem;
+}
+
+.news p{
+	font-size: .9rem;
+}
+
+.news button{
+	padding: 0 1rem;
+	border: none;
+	background-color: #00008b;
+	color: #fff;
+	float: right;
 	cursor: pointer;
 }
 
@@ -180,6 +188,28 @@ a{
 	margin: 10px; 
 }
 
+/*NEWS SHORT*/
+
+.news-short{
+	background-color: #f9f9f9;
+	width: 275px;
+	padding: 1rem;
+}
+
+.news-short > div{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.news-short img{
+	width: 90px;
+}
+
+.news-short h2{
+	font-size: .9rem;
+	font-weight: 200;
+}
 
 
 
